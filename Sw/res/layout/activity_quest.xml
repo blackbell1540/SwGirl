@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical"
+    android:background="#ffcccc"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+
+    <android.widget.EditText
+        android:id="@+id/editQuestoion"
+        android:layout_width="300dp"
+        android:layout_height="400dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:background="#ffffff"
+        android:ems="10"
+        android:hint="질문을 올려주세요" >
+
+        <requestFocus />
+    </android.widget.EditText>
+
+    <android.widget.Button
+        android:id="@+id/buttonQuestion"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:background="#ffaaaa"
+        android:text="올리기"
+        android:textColor="#ffffff"
+        android:textSize="18sp" />
+
+</LinearLayout>
